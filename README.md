@@ -1,2 +1,81 @@
 # Pharmacogenomics-and-ML-identify-KRAS-G12D-MEK-inhibitors-in-colorectal-cancer
-Integrative Pharmacogenomics and Supervised Machine Learning Identify Drug Sensitivity Determinants and Candidate Inhibitors Targeting KRASG12D–MEK Signaling in Colorectal Cancer.
+This repository contains a reproducible, end-to-end computational pipeline integrating
+pharmacogenomics, bulk transcriptomics, single-cell RNA sequencing, chemoinformatics,
+and supervised machine learning to identify drug sensitivity determinants and candidate
+inhibitors targeting KRAS-G12D–MEK signaling in colorectal cancer.
+
+## Pipeline Overview
+
+The workflow consists of the following steps:
+
+1. Integration of CCLE expression, mutation, and metadata
+2. Harmonization of GDSC drug response (IC50) data
+3. Correlation analysis between KRAS expression and drug sensitivity
+4. Selection of biologically relevant reference inhibitors
+5. Single-cell RNA-seq analysis for KRAS expression heterogeneity
+6. ChEMBL-based chemoinformatics data processing
+7. Molecular fingerprint generation and supervised ML modeling
+8. Similarity-based ranking against reference MEK inhibitor (Selumetinib)
+9. Consensus filtering to prioritize high-confidence drug candidates
+
+## Data Sources
+
+The following publicly available datasets are used:
+
+- CCLE (DepMap):
+  - Gene expression
+  - Mutation data
+  - Sample metadata
+- GDSC (Genomics of Drug Sensitivity in Cancer):
+  - Drug response (LN_IC50)
+- Single-cell RNA-seq:
+  - GEO accession: GSE178318
+- ChEMBL:
+  - KRAS, SOS1–KRAS, and MEK inhibitor bioactivity datasets
+
+*Note: Raw data files are not included in this repository and must be downloaded
+from the original sources due to size and licensing restrictions.*
+
+## Dependencies
+
+Python ≥ 3.8
+Key packages:
+- pandas
+- numpy
+- scipy
+- scikit-learn
+- scanpy
+- seaborn
+- matplotlib
+- rdkit
+
+## Clone the Repository
+To get the code locally:
+
+Clone the repository
+
+```bash
+git clone https://github.com/Abbas24-AI/Pharmacogenomics-and-ML-identify-KRAS-G12D-MEK-inhibitors-in-colorectal-cancer.git
+```
+
+Navigate into the directory
+```
+cd Pharmacogenomics-and-ML-identify-KRAS-G12D-MEK-inhibitors-in-colorectal-cancer
+```
+Launch Jupyter Notebook
+
+```
+jupyter notebook Integrative_Pharmacogenomics_ML_KRASG12D_MEK_CRC.ipynb
+```
+
+
+## Citation
+
+In process.
+
+## Contacts
+
+**Abbas Khan**  
+*Department of Biomedical Sciences, Sir Jeffrey Cheah Sunway Medical School, Faculty of Medical and Life Sciences, Sunway University*  
+📧 Email: [abbask@sunway.edu.my](mailto:abbask@sunway.edu.my)
+
