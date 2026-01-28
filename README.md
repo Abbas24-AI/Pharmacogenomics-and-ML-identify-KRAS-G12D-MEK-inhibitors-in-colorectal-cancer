@@ -23,15 +23,9 @@ The workflow consists of the following steps:
 The following publicly available datasets are used:
 
 - CCLE (DepMap):
-  - Gene expression
-  - Mutation data
-  - Sample metadata
 - GDSC (Genomics of Drug Sensitivity in Cancer):
-  - Drug response (LN_IC50)
 - Single-cell RNA-seq:
-  - GEO accession: GSE178318
-- ChEMBL:
-  - KRAS, SOS1–KRAS, and MEK inhibitor bioactivity datasets
+- ChEMBL Database:
 
 *Note: Raw data files are not included in this repository and must be downloaded
 from the original sources due to size and licensing restrictions.*
@@ -40,14 +34,14 @@ from the original sources due to size and licensing restrictions.*
 
 Python ≥ 3.8
 Key packages:
-- pandas
-- numpy
-- scipy
-- scikit-learn
-- scanpy
-- seaborn
-- matplotlib
-- rdkit
+- [pandas](https://pandas.pydata.org/)
+- [numpy](https://numpy.org/)
+- [scipy](https://scipy.org/)
+- [scikit-learn](https://scikit-learn.org/)
+- [scanpy](https://scanpy.readthedocs.io/)
+- [seaborn](https://seaborn.pydata.org/)
+- [matplotlib](https://matplotlib.org/)
+- [RDKit](https://www.rdkit.org/)
 
 ## Clone the Repository
 To get the code locally:
