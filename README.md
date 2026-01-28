@@ -1,8 +1,5 @@
 # Pharmacogenomics-and-ML-identify-KRAS-G12D-MEK-inhibitors-in-colorectal-cancer
-This repository contains a reproducible, end-to-end computational pipeline integrating
-pharmacogenomics, bulk transcriptomics, single-cell RNA sequencing, chemoinformatics,
-and supervised machine learning to identify drug sensitivity determinants and candidate
-inhibitors targeting KRAS-G12D–MEK signaling in colorectal cancer.
+Integrative Pharmacogenomics and Supervised Machine Learning Identify Drug Sensitivity Determinants and Candidate Inhibitors Targeting KRASG12D–MEK Signaling in Colorectal Cancer.
 
 ## Pipeline Overview
 
